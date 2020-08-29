@@ -1,0 +1,49 @@
+body{
+    background-color: orange;
+}
+/* .btn {
+    background-color: red;
+} */
+.view{
+    background-color:skyblue; 
+}
+.card{
+    position: relative;
+}
+.btn-profile{
+position: absolute;
+left: 0;
+bottom: 0;
+border-top-right-radius:0;
+}
+.btn-edit{
+position: absolute;
+top: 0;
+right: 0;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+.loading{
+    width:100w;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11111111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+h1,h2,h3{
+    color: whitesmoke;
+    font: bolder;
+    text-align: center;
+    font: outline;
+
+}
